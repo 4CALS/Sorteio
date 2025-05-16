@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="logica.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti"></script>
+</head>
+
+<body>
+    <h1>Sorteio</h1>
+    <div id="resultado">Clique o botão sortear para começar!</div>
+    <div class="botoes">
+        <button onclick="sortear()"> Sortear </button>
+        <button onclick="limpar()"> Limpar </button>
+    </div>
+
+
+    <div class="checkboxes">
+        <label><input type="checkbox" id="checkbox-estudante" checked> Estudante</label>
+        <label><input type="checkbox" id="checkbox-funcionario" checked> Funcionário</label>
+        <label><input type="checkbox" id="checkbox-convidado" checked> Convidado</label>
+    </div>
+
+</body>
+
+</html>
